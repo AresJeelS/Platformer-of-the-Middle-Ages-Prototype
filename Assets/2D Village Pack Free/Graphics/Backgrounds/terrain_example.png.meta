@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: 871b9245f9bdf654ba5b6c8dfd05a3bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terrain_example_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 454
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 34}
+        - {x: -1, y: -14}
+        - {x: 55, y: -76}
+        - {x: 95, y: -95}
+        - {x: 95, y: 49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1117424b7d134f44aac365a205c3effe
+      internalID: -1336024872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 454
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -95, y: 49}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5892a07e190ef468976f5480010fd0
+      internalID: 1984954892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 454
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -95, y: 49}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b82f7574146c048a7b231425e353af
+      internalID: 2126009037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 454
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -95, y: 49}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 49}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff517df2656ed4fb1f1a6a550f455a
+      internalID: -1965927038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_4
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 454
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 20, y: -3}
+        - {x: -13, y: 45}
+        - {x: -95, y: 46}
+        - {x: -95, y: -95}
+        - {x: 4, y: -95}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bb230438e88a94ea0529270292578b
+      internalID: -629296101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 264
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fedf27ca6bbd546b6c252de3818ce2
+      internalID: 1939403399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 264
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f73e33be342fd44389348b8cdfb0d1c
+      internalID: 1809452758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_7
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 264
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2faf3700fe9d744a82c69cbac7a5857
+      internalID: 757240169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 264
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2035ea6171e3ec44bbb80f073b64c33
+      internalID: -2015956867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 264
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23b71c3f02d42049b62a42180911080
+      internalID: 489751373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -28, y: 83}
+        - {x: -39, y: 74}
+        - {x: -41, y: 70}
+        - {x: -41, y: 66}
+        - {x: -42, y: 65}
+        - {x: -44, y: 56}
+        - {x: -43, y: 63}
+        - {x: -41, y: 68}
+        - {x: -41, y: 75}
+        - {x: -56, y: 80}
+        - {x: -60, y: 76}
+        - {x: -70, y: 67}
+        - {x: -78, y: 77}
+        - {x: -87, y: 81}
+        - {x: -88, y: 77}
+        - {x: -89, y: 69}
+        - {x: -89, y: 70}
+        - {x: -92, y: 73}
+        - {x: -94, y: 73}
+        - {x: -95, y: 72}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 83}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6dbead4f75b3847b436925aa38f269
+      internalID: -1070791944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 74
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f704ced5348214992e9dcf48f36727
+      internalID: 1110571974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 74
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e033c470b3d0442b2438b0d0089ac8
+      internalID: 1081115683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 74
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1a13793fb3c8948a43ff2ada78c1ac
+      internalID: 1111667425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 74
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abfe1403fb404a43a7bc590c4efae3b
+      internalID: 195996980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_15
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 74
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4615d93667c64284cb070aca2ba44d0b
+      internalID: -1340419780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_16
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 94, y: 73}
+        - {x: 95, y: 73}
+        - {x: 95, y: 83}
+        - {x: 59, y: 83}
+        - {x: 54, y: 75}
+        - {x: 52, y: 70}
+        - {x: 52, y: 66}
+        - {x: 51, y: 65}
+        - {x: 49, y: 56}
+        - {x: 50, y: 63}
+        - {x: 52, y: 68}
+        - {x: 52, y: 70}
+        - {x: 47, y: 75}
+        - {x: 37, y: 77}
+        - {x: 33, y: 76}
+        - {x: 23, y: 67}
+        - {x: 15, y: 77}
+        - {x: 6, y: 81}
+        - {x: 5, y: 77}
+        - {x: 4, y: 69}
+        - {x: 4, y: 70}
+        - {x: -1, y: 83}
+        - {x: -91, y: 83}
+        - {x: -95, y: 78}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 71}
+        - {x: 92, y: 70}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a87c6ff13ec9f448a7e760d629c5a7
+      internalID: -1899611881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_17
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 33, y: 83}
+        - {x: 31, y: 79}
+        - {x: 31, y: 73}
+        - {x: 32, y: 69}
+        - {x: 30, y: 78}
+        - {x: 26, y: 83}
+        - {x: -89, y: 83}
+        - {x: -95, y: 75}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 70}
+        - {x: 77, y: 83}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f670311ce1de34da992281153972e9
+      internalID: 1204802279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_18
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 89}
+        - {x: -9, y: 73}
+        - {x: -10, y: 70}
+        - {x: -10, y: 68}
+        - {x: -8, y: 63}
+        - {x: -9, y: 65}
+        - {x: -10, y: 66}
+        - {x: -10, y: 70}
+        - {x: -9, y: 83}
+        - {x: -21, y: 89}
+        - {x: -95, y: 89}
+        - {x: -95, y: -95}
+        - {x: 95, y: -95}
+        - {x: 95, y: 84}
+        - {x: 87, y: 89}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844a6434d0643b84989a9f931bec2145
+      internalID: -1623574279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_example_19
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 0
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edf35ff7c2c81940b51a00b22058735
+      internalID: 307910290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      terrain_example_4: -629296101
+      terrain_example_12: 1081115683
+      terrain_example_7: 757240169
+      terrain_example_8: -2015956867
+      terrain_example_14: 195996980
+      terrain_example_15: -1340419780
+      terrain_example_5: 1939403399
+      terrain_example_13: 1111667425
+      terrain_example_16: -1899611881
+      terrain_example_6: 1809452758
+      terrain_example_2: 2126009037
+      terrain_example_17: 1204802279
+      terrain_example_19: 307910290
+      terrain_example_18: -1623574279
+      terrain_example_0: -1336024872
+      terrain_example_1: 1984954892
+      terrain_example_3: -1965927038
+      terrain_example_9: 489751373
+      terrain_example_10: -1070791944
+      terrain_example_11: 1110571974
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
