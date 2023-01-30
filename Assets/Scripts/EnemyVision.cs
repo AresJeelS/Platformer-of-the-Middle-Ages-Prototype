@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class EnemyVision : MonoBehaviour
 {
-    [SerializeField] private GameObject currentHitObject; // хранит игровой объект которого коснулась наша окружность
-    [SerializeField] private float circleRadius; // радиус окружности
-    [SerializeField] private float maxDistance; // максимальная дистанция между противником и окружностью
-    [SerializeField] private LayerMask layerMask; // слой который будте виден нашему противнику
+    [SerializeField] private GameObject currentHitObject; 
+    [SerializeField] private float circleRadius; 
+    [SerializeField] private float maxDistance; 
+    [SerializeField] private LayerMask layerMask;
 
     private EnemyController _enemyController;
-    private Vector2 _origin; // точка откуда будет создаваться наша окружность
-    private Vector2 _direction; // задает направление от точки origin до создания окружности
+    private Vector2 _origin;
+    private Vector2 _direction;
 
-    private float _currentHitdistance; // расстояние от нашего противника до объекта, который попал в радиус нашей окружности
-
+    private float _currentHitdistance;
    
     private void Start()
     {
@@ -33,7 +32,7 @@ public class EnemyVision : MonoBehaviour
         {
             _direction = Vector2.left;
         }
-        RaycastHit2D hit = Physics2D.CircleCast(_origin, circleRadius, _direction, maxDistance, layerMask); // создаем невидимый объект в виде окружности
+        RaycastHit2D hit = Physics2D.CircleCast(_origin, circleRadius, _direction, maxDistance, layerMask);
 
         if (hit)
         {
